@@ -1,10 +1,13 @@
 import './App.css';
+import Childern from './components/Childern';
+import NameBadge from './components/name-badge';
 
 const App = () => {
   return (
-    <div className="App">
-      <div className="hello">Hello World</div>
-    </div>
+    <main className="application">
+     {/* <NameBadge name='Omar' greeting='hello'/> */}
+     <Childern />
+  </main>
   );
 }
 
